@@ -1,2 +1,30 @@
 
 /* Your CSS Code here. */
+.holder{
+	display:flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.item{
+	width:90px;
+	height:90px;
+	font-size:3rem;
+}
+
+.A{
+	background-color:red;
+	order:1;
+}
+
+
+.B{
+	background-color:blue;
+	order:2;
+}
+
+.C{
+	background-color:green;
+	order:0;
+}
